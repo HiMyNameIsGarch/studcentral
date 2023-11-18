@@ -8,5 +8,8 @@ namespace studcentral.Models
         public DateTime Date { get; set; }
         public float FinalGrade { get; set; }
         public Subject Subject { get; set; }
+        public int SubjectId { get; set; }
+        public Student Student { get; set; }
+        public int StudentId { get; set; }
     }
 }
