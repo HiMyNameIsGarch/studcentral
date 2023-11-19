@@ -12,6 +12,5 @@ namespace studcentral.Models
         public int MenuId { get; set; }
         public Menu Menu { get; set; }
         public string Schedule {  get; set; }
-
     }
 }

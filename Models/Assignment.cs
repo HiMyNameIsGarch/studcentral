@@ -7,6 +7,5 @@
         public string SolutionPdfLink { get; set; }
         public Grade Grade { get; set; }
         public int GradeId { get; set; }
-
     }
 }
